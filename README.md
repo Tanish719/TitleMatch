@@ -27,7 +27,7 @@ pip3 install -r requirements.txt
 ```
 
 #### Step 3: Running the API locally 
-```bash
+```sh
 uvicorn main:app
 ```
 If the file has run with no problems the terminal will display

@@ -18,7 +18,7 @@ This FastAPI-based project provides an endpoint to find the most similar title f
 When comparing two vectors (e.g., sentence embeddings in NLP), we can use different **distance metrics** to measure their similarity. The two most common ones are:
 
  1. Cosine similarity: Measures angles between two vectors
-	 $$ cos\theta =\frac{ \sum_i A_iB_i}{(\sum_i A_i^2)(\sum_i B_i^2)}  $$
+	$` cos\theta =\frac{ \sum_i A_iB_i}{(\sum_i A_i^2)(\sum_i B_i^2)}  `$
 	 The result is always between -1 (least related) to 1 (perfect match). 
 	 ```python
 	 from sklearn.metrics.pairwise import cosine_similarity

@@ -33,8 +33,8 @@ When comparing two vectors (e.g., sentence embeddings in NLP), we can use differ
 	output: 0.97463185
 	```
 
- 2. L2 similarity: Measures absolute distance between two vectors
-	 $$   ||A-B||_2 = \sqrt{\sum_i(A_i-B_i)^2}  $$
+ 2. L2 similarity: Measures absolute distance between two vectors\
+	 $`   ||A-B||_2 = \sqrt{\sum_i(A_i-B_i)^2}  `$\
 	The smaller the euclidean distance is the more similar the two vectors 		are to one another.
 	 ```python
 	 from sklearn.metrics.pairwise import euclidean_distanced

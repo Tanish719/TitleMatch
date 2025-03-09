@@ -58,6 +58,7 @@ It is important to note that the euclidean distance is **sensitive** to the magn
 ```
 
 #### Step 2: Install dependencies
+make sure to first change directory so that your in the Main folder. ``` cd TitleMatch/Main ```
 ```bash
 pip3 install -r requirements.txt
 ```

@@ -37,14 +37,14 @@ When comparing two vectors (e.g., sentence embeddings in NLP), we can use differ
 	 $`   ||A-B||_2 = \sqrt{\sum_i(A_i-B_i)^2}  `$\
 	The smaller the euclidean distance is the more similar the two vectors 		are to one another.
 	 ```python
-	 from sklearn.metrics.pairwise import euclidean_distanced
+	 from sklearn.metrics.pairwise import euclidean_distance
 	import numpy as np
 
 	A = np.array([1, 2, 3]).reshape(1, -1)
 	B = np.array([4, 5, 6]).reshape(1, -1)
 
-	similarity = cosine_similarity(A, B)
-	print(similarity)  # Closer to 1 means more similar
+	similarity = euclidean_distance(A, B)
+	print(similarity)  # Closer to 0 means more similar
 	
 	output: 5.19615242
 	```

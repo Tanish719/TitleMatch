@@ -1,5 +1,8 @@
 
 # **Title Similarity API**  
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFCC4D?style=for-the-badge&logo=huggingface&logoColor=black)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 
 This FastAPI-based project provides an endpoint to find the most similar title from a given list using NLP embeddings. It leverages the **all-MiniLM-L6-v2** model from Hugging Face and computes similarity using **cosine similarity**. The API is built with **FastAPI** and standard Python dependencies for efficiency and ease of use.
 
